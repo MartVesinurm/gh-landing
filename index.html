@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Informaatioverkostot</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"
+      integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://use.typekit.net/vua8jmn.css" />
+    <script src="js/typed.min.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+      body {
+        font-family: nimbus-sans, Arial, Helvetica, sans-serif;
+        min-width: 560px;
+      }
+      .nav-item,
+      .navbar-brand {
+        font-weight: bold;
+        /* text-transform: uppercase; */
+        font-size: 26px;
+      }
+      .nav-link {
+        text-align: center;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+      }
+      #aaltologo {
+        width: 100px;
+      }
+      .colorcontainer {
+        width: 100%;
+        background: #d04c51;
+        color: white;
+        padding: 3em 0;
+      }
+      .container {
+        /* margin-top: 10em; */
+      }
+      #typewriter {
+        font-weight: bold;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <img src="img/A_yellow.png" id="aaltologo" alt="" />
+        <a class="navbar-brand" href="#">Informaatioverkostot</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Abeille</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tapahtumat</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Muu</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container"></div>
+    <div class="colorcontainer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="text-center">
+              <img id="hs-img" class="mx-auto d-block" src="./img/hs_rip.png" />
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="align-self-center">
+              <div style="margin-top: 3em;"><span id="typewriter"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
